@@ -16,8 +16,8 @@ st.set_page_config(
 )
 
 st.title('Breast Cancer Survivorship Prediction')
-#st.image('image/cover_img2.PNG', use_column_width=True)
-#st.markdown('### ')
+st.image('image/cover_img2.png', use_column_width=True)
+st.markdown('### ')
 
 #################################################################################################################################
 # container 2 - facts on statistics and trends
@@ -51,7 +51,7 @@ Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Wor
 <i>CA: a cancer journal for clinicians</i>, 71(3), 209–249. https://doi.org/10.3322/caac.21660''', unsafe_allow_html=True)
 
 col7, col8 = container2.columns(2)
-col7.image('image/breast_cancer4.png')
+col7.image('image/breast_cancer4.PNG')
 col8.subheader('Non-Hispanic white women and non-Hispanic Black women have the highest incidence of breast cancer (rate of new breast cancer cases) overall. Hispanic women have the lowest incidence.''')
 col8.markdown('Reference')
 col8.markdown('''
