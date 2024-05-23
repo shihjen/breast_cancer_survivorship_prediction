@@ -16,8 +16,8 @@ st.set_page_config(
 )
 
 st.title('Breast Cancer Survivorship Prediction')
-st.image('image/cover_img2.PNG', use_column_width=True)
-st.markdown('### ')
+#st.image('image/cover_img2.PNG', use_column_width=True)
+#st.markdown('### ')
 
 #################################################################################################################################
 # container 2 - facts on statistics and trends
