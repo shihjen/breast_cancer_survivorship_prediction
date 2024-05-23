@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 st.title('Breast Cancer Survivorship Prediction')
-st.image('image/cover_img.PNG', use_column_width=True)
+st.image('image/cover_img2.PNG', use_column_width=True)
 st.markdown('### ')
 
 #################################################################################################################################
