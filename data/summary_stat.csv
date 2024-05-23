@@ -1,0 +1,15 @@
+Variable,Alive Group,Dead Group,Test Statistic,p-value
+Age,54.0 [47.0-61.0],56.5 [48.0-63.0],-3.552,0.0004
+Tumor Size,23.0 [15.0-35.0],30.0 [20.0-50.0],-8.5889,0.0
+Regional Node Examined,14.0 [9.0-19.0],14.0 [9.0-20.0],-2.2065,0.0274
+Regional Node Positive,2.0 [1.0-4.0],4.0 [2.0-10.0],-16.8398,0.0
+Survival Months,77.0 [61.0-92.0],44.0 [27.0-61.0],34.3737,0.0
+Race,"['White: 2903 (0.85%)', 'Other (American Indian/AK Native, Asian/Pacific Islander): 287 (0.08%)', 'Black: 218 (0.06%)']","['White: 510 (0.83%)', 'Black: 73 (0.12%)', 'Other (American Indian/AK Native, Asian/Pacific Islander): 33 (0.05%)']",27.97,0.0
+Marital Status,"['Married (including common law): 2285 (0.67%)', 'Single (never married): 511 (0.15%)', 'Divorced: 396 (0.12%)', 'Widowed: 186 (0.05%)', 'Separated: 30 (0.01%)']","['Married (including common law): 358 (0.58%)', 'Single (never married): 104 (0.17%)', 'Divorced: 90 (0.15%)', 'Widowed: 49 (0.08%)', 'Separated: 15 (0.02%)']",28.2638,0.0
+T Stage,"['T2: 1483 (0.44%)', 'T1: 1446 (0.42%)', 'T3: 417 (0.12%)', 'T4: 62 (0.02%)']","['T2: 303 (0.49%)', 'T1: 157 (0.25%)', 'T3: 116 (0.19%)', 'T4: 40 (0.06%)']",103.4763,0.0
+N Stage,"['N1: 2462 (0.72%)', 'N2: 655 (0.19%)', 'N3: 291 (0.09%)']","['N1: 270 (0.44%)', 'N3: 181 (0.29%)', 'N2: 165 (0.27%)']",269.9291,0.0
+6th Stage,"['IIA: 1209 (0.35%)', 'IIB: 995 (0.29%)', 'IIIA: 866 (0.25%)', 'IIIC: 291 (0.09%)', 'IIIB: 47 (0.01%)']","['IIIA: 184 (0.3%)', 'IIIC: 181 (0.29%)', 'IIB: 135 (0.22%)', 'IIA: 96 (0.16%)', 'IIIB: 20 (0.03%)']",281.6484,0.0
+Grade,"['Moderately differentiated; Grade II: 2046 (0.6%)', 'Poorly differentiated; Grade III: 848 (0.25%)', 'Well differentiated; Grade I: 504 (0.15%)', 'Undifferentiated; anaplastic; Grade IV: 10 (0.0%)']","['Moderately differentiated; Grade II: 305 (0.5%)', 'Poorly differentiated; Grade III: 263 (0.43%)', 'Well differentiated; Grade I: 39 (0.06%)', 'Undifferentiated; anaplastic; Grade IV: 9 (0.01%)']",112.5563,0.0
+A Stage,"['Regional: 3351 (0.98%)', 'Distant: 57 (0.02%)']","['Regional: 581 (0.94%)', 'Distant: 35 (0.06%)']",35.7647,0.0
+Estrogen Status,"['Positive: 3247 (0.95%)', 'Negative: 161 (0.05%)']","['Positive: 508 (0.82%)', 'Negative: 108 (0.18%)']",135.1557,0.0
+Progesterone Status,"['Positive: 2914 (0.86%)', 'Negative: 494 (0.14%)']","['Positive: 412 (0.67%)', 'Negative: 204 (0.33%)']",124.8854,0.0
