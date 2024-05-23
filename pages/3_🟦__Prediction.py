@@ -134,16 +134,27 @@ if submit:
 
     prediction = model_option[model].predict(user_input_scaled)
 
+    # probabilities estimation
+    prediction_probalities = model_option[model].predict_proba(user_input_scaled)
+    alive_probabilities = float(prediction_probalities[0][0])
+    dead_probabilities = float(prediction_probalities[0][1])
+
+
+
     #outcome = lr.predict(user_input_scaled)
     final = label_encoder.inverse_transform(prediction)
 
     if final[0] == 'Alive':
-        container2.subheader('Based on the model prediction, the patient has a :blue[higher chance] to alive.')
+        container2.subheader('Based on the model prediction, the patient has a :green[higher chance] to alive.')
     else:
         container2.subheader('Based on the model prediction, the patient has a :red[lower chance] to alive.')
 
     container3 = st.container(border=True)
     container3.markdown('### :blue[Model Interpretability]')
+    container3.markdown('### ')
+    container3.markdown(f'#### :green[Alive Probabilities:] :green[{round(alive_probabilities,2)}]')
+    container3.markdown(f'#### :red[Dead Probabilities:] :red[{round(dead_probabilities,2)}]')
+
 
     model_explainer = lime.lime_tabular.LimeTabularExplainer(Xtrain_array, feature_names=Xtrain.columns, class_names=['Alive','Dead'], mode='classification')
     exp = model_explainer.explain_instance(user_input_scaled.reshape(1,-1)[0], model_option[model].predict_proba, num_features=21)
